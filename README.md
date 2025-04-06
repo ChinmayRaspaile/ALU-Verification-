@@ -25,8 +25,8 @@ The testbench uses separate tasks for each ALU operation and applies:
 - Parent thread continues immediately **without waiting** for any task to complete.
 
 ## Files
-- `alu.sv`: ALU module (Device Under Test)
-- `tb.sv`: Testbench demonstrating `fork-join` constructs
+- `design.sv`: ALU module (Device Under Test)
+- `testbench.sv`: Testbench demonstrating `fork-join` constructs
 
 ## How to Run
 1. Open in any SystemVerilog simulator (e.g., Vivado, ModelSim, QuestaSim)
@@ -50,6 +50,7 @@ First completed operation finished with fork...join_any
 Parent thread continued without waiting (fork...join_none)
 ...
 ```
+Happy Coding! 🚀
 
 
 
